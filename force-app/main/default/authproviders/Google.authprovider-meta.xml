@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://accounts.google.com/o/oauth2/auth?access_type=offline&amp;prompt=consent</authorizeUrl>
+    <consumerKey>598846352629-o7n7226mijda2kekjusml4pspukn7fhh.apps.googleusercontent.com</consumerKey>
+    <consumerSecret>Placeholder_Value</consumerSecret>
+    <defaultScopes>https://www.googleapis.com/auth/tasks https://www.googleapis.com/auth/tasks.readonly openid</defaultScopes>
+    <friendlyName>Google</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>OpenIdConnect</providerType>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://oauth2.googleapis.com/token</tokenUrl>
+</AuthProvider>
